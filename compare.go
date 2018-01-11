@@ -32,8 +32,8 @@ func check (data1, data2 []byte) bool{
 } 
 
 func main() {
-	file1 := "/Users/tvatsal/file1.txt"
-	file2 := "/Users/tvatsal/file2.txt"
+	file1 := "/Users/tvatsal/test_repo/file1.txt"
+	file2 := "/Users/tvatsal/test_repo/file2.txt"
 	// log.Printf("%T\n",file1)
 	data1 := read_file(file1)
 	data2 := read_file(file2)
